@@ -7,3 +7,9 @@
 [submodule "vagrant/cookbooks/logrotate"]
 	path = vagrant/cookbooks/logrotate
 	url = git@github.com:stevendanna/logrotate.git
+[submodule "vagrant/cookbooks/mysql"]
+	path = vagrant/cookbooks/mysql
+	url = git@github.com:opscode-cookbooks/mysql.git
+[submodule "vagrant/cookbooks/yum"]
+	path = vagrant/cookbooks/yum
+	url = git@github.com:opscode-cookbooks/yum.git
