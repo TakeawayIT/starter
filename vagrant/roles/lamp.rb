@@ -2,10 +2,14 @@
 name "lamp"
 
 override_attributes(
-    "apache" => {        
+    "apache" => {                
         "contact" => 'abn@webit4.me',
-        "listen_ports" => ["80", "443"],
-        "default_modules" => ["status","info","ssl","php5"]
+        "listen_ports" => ["80", "443"], 
+        "default_site_enabled" => true,        
+        "status_allow_list" => 'all',       
+        "ext_status" => true,
+        "info_allow_list" => 'all',
+        #{}"sysconfig_additional_params" =>,        
     },
     "mysql" => {        
         "server_root_password" => 'pass',                        
@@ -15,6 +19,7 @@ override_attributes(
 # Run list function we mentioned earlier
 run_list(         
     "recipe[apache2]",    
+    "recipe[apache2::mod_info]",    
     "recipe[mysql::server]",
     "recipe[mysql::client]"
 )
