@@ -1,0 +1,9 @@
+[submodule "vagrant/cookbooks/apache2"]
+	path = vagrant/cookbooks/apache2
+	url = git@github.com:onehealth-cookbooks/apache2.git
+[submodule "vagrant/cookbooks/iptables"]
+	path = vagrant/cookbooks/iptables
+	url = git@github.com:opscode-cookbooks/iptables.git
+[submodule "vagrant/cookbooks/logrotate"]
+	path = vagrant/cookbooks/logrotate
+	url = git@github.com:stevendanna/logrotate.git
