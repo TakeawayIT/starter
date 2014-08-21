@@ -27,5 +27,6 @@ run_list(
     "recipe[yum-webtatic]",
     "recipe[takeaway-it::php]",
     "recipe[apache2::mod_php5]",    
-    "recipe[takeaway-it::vhost]"
+    "recipe[takeaway-it::vhost]",
+    "recipe[takeaway-it::vhost_zend2]"
 )
