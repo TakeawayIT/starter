@@ -16,3 +16,12 @@
 [submodule "vagrant/cookbooks/yum-webtatic"]
 	path = vagrant/cookbooks/yum-webtatic
 	url = git@github.com:webtatic-cookbooks/yum-webtatic.git
+[submodule "vagrant/cookbooks/phpcs"]
+	path = vagrant/cookbooks/phpcs
+	url = git@github.com:escapestudios-cookbooks/phpcs.git
+[submodule "vagrant/cookbooks/build-essential"]
+	path = vagrant/cookbooks/build-essential
+	url = git@github.com:opscode-cookbooks/build-essential.git
+[submodule "vagrant/cookbooks/xml"]
+	path = vagrant/cookbooks/xml
+	url = git@github.com:opscode-cookbooks/xml.git

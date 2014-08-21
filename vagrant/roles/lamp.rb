@@ -17,12 +17,15 @@ override_attributes(
 )
 
 # Run list function we mentioned earlier
-run_list(         
-    "recipe[yum-webtatic]", 
+run_list(             
+    "recipe[build-essential]",    
     "recipe[apache2]",    
-    "recipe[apache2::mod_info]",
-    "recipe[apache2::mod_php5]",    
+    "recipe[apache2::mod_info]",    
     "recipe[mysql::server]",
     "recipe[mysql::client]",
-    "recipe[takeaway-it::php]"
+    "recipe[takeaway-it::db]",
+    "recipe[yum-webtatic]",     
+    "recipe[takeaway-it::php]",
+    "recipe[apache2::mod_php5]",    
+    "recipe[takeaway-it::vhost]"
 )
