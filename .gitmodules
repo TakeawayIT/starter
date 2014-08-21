@@ -25,3 +25,6 @@
 [submodule "vagrant/cookbooks/xml"]
 	path = vagrant/cookbooks/xml
 	url = git@github.com:opscode-cookbooks/xml.git
+[submodule "ZendSkeletonApplication"]
+	path = ZendSkeletonApplication
+	url = git://github.com/zendframework/ZendSkeletonApplication.git
