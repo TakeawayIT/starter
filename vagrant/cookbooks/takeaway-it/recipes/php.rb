@@ -8,19 +8,7 @@
 #
 
 
-bash "install_composer" do
-  user "root"
-  code <<-EOL  
-  curl -sS https://getcomposer.org/installer | php
-  mv composer.phar /usr/local/bin/composer
-  EOL
-end
-
 yum_package "php55w" do
-  action :install
-end
-
-yum_package "php55w-common" do
   action :install
 end
 
@@ -60,11 +48,22 @@ yum_package "php55w-xmlrpc" do
   action :install
 end
 
-status_file = "/path/to/file/status_file"
+yum_package "php-pear-PHP-CodeSniffer" do
+  action :install
+end
 
 file "/etc/php.d/common.ini" do
   owner "root"
   group "root"
   mode "0600"
   content "error_reporting = E_ALL\ndisplay_errors = On \nphar.readonly = 0  \ndate.timezone = Europe/London \n"
+end
+
+bash "install_composer" do
+  user "root"
+  code <<-EOL  
+  curl -sS https://getcomposer.org/installer | php;
+  cp composer.phar /usr/bin/composer;
+  EOL
+  not_if { ::File.exists?("/usr/bin/composer") }
 end

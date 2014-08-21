@@ -23,8 +23,8 @@ run_list(
     "recipe[apache2::mod_info]",    
     "recipe[mysql::server]",
     "recipe[mysql::client]",
-    "recipe[takeaway-it::db]",
-    "recipe[yum-webtatic]",     
+    "recipe[takeaway-it::db]",         
+    "recipe[yum-webtatic]",
     "recipe[takeaway-it::php]",
     "recipe[apache2::mod_php5]",    
     "recipe[takeaway-it::vhost]"

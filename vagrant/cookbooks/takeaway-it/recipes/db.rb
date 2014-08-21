@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-bash 'setup_phalconphp_db' do
+bash 'setup_takeawayit_db' do
   user "root"
   code <<-EOL
   service mysqld restart
