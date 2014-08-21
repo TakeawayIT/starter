@@ -27,4 +27,4 @@
 	url = git@github.com:opscode-cookbooks/xml.git
 [submodule "www/zend2"]
 	path = www/zend2
-	url = git://github.com/zendframework/ZendSkeletonApplication.git
+	url = git@github.com:TakeawayIT/ZendSkeletonApplication.git
