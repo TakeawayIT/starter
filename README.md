@@ -1,4 +1,17 @@
-starter
-=======
+LAMP
+=====
+To copy and boot-up a lamp environment 
 
-This will be an starter pack to facilitate boot-up  and running a lamp environment  with different frameworks pre configured 
+```
+git clone https://github.com/TakeawayIT/starter.git;
+cd starter;
+git checkout lamp;
+cd vagrant;
+vagrant up;
+```
+
+Resolve configured domains by adding them to your hosts file
+```
+192.168.33.10 takeawayit.local
+192.168.33.10 www.takeawayit.local
+```
