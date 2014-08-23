@@ -5,7 +5,8 @@ To copy and boot-up a lamp environment including a Zend2 framework with doctrine
 ```
 git clone https://github.com/TakeawayIT/starter.git;
 cd starter;
-git checkout lamp-2;
+git checkout lamp-zf2;
+git submodule update
 cd vagrant;
 vagrant up;
 ```
