@@ -4,7 +4,7 @@ web_app "vhost" do
   server_name "www.takeawayit.local"
   server_aliases ["takeawayit.local"]
   allow_override "all"  
-  docroot "/var/www/public"
+  docroot "/var/www/html"
   directory_index ["index.html","index.htm","index.php"]
   set_env "ENVIRONMENT DEV"
 end
@@ -12,7 +12,7 @@ end
 bash "symlink_vhost" do    
   user "root"
   code <<-EOL  
-  ln -s /var/www /home/vagrant/www
+  ln -s /var/www/html /home/vagrant/html
   EOL
-  not_if {File.exists?("/home/vagrant/www")}
+  not_if {File.exists?("/home/vagrant/html")}
 end
