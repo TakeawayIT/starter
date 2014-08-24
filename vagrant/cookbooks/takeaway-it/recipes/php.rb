@@ -55,7 +55,7 @@ end
 file "/etc/php.d/common.ini" do
   owner "root"
   group "root"
-  mode "0600"
+  mode "0644"
   content "error_reporting = E_ALL\ndisplay_errors = On \nphar.readonly = 0  \ndate.timezone = Europe/London \n"
 end
 
