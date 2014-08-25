@@ -2,7 +2,7 @@ include_recipe "apache2"
 
 web_app "vhost" do
   server_name "www.takeawayit.local"
-  server_aliases ["takeawayit.local"]
+  server_aliases ["starter.takeawayit.local","takeawayit.local"]
   allow_override "all"  
   docroot "/var/www/html"
   directory_index ["index.html","index.htm","index.php"]
