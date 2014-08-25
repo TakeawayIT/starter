@@ -23,7 +23,7 @@ To copy and boot-up the LAMP environment you need to:
 git clone --recurse-submodules https://github.com/TakeawayIT/starter.git;
    # 2.
 cd starter;
-git checkout lamp;
+git checkout lamp-zf2;
 git submodule init;
 git submodule update;
    # 3.
