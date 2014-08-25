@@ -3,23 +3,11 @@ starter
 
 This will be an starter pack to facilitate boot-up  and running a lamp environment  with different frameworks pre configured 
 
-LAMP
-=====
-To copy and boot-up a lamp environment 
+## Available branches
+* [LAMP](https://github.com/TakeawayIT/starter/tree/lamp)
+* [LAMP with CakePHP 2.5](https://github.com/TakeawayIT/starter/tree/lamp-cakephp25)
+* [LAMP with Kohana 3.3.2](https://github.com/TakeawayIT/starter/tree/lamp-kohana332)
+* [LAMP with Laravel 4.2](https://github.com/TakeawayIT/starter/tree/lamp-laravel42)
+* [LAMP with Symfony 2.5](https://github.com/TakeawayIT/starter/tree/lamp-symfony2)
+* [LAMP with Zend 2.3](https://github.com/TakeawayIT/starter/tree/lamp-zf2)
 
-```
-git clone --recurse-submodules https://github.com/TakeawayIT/starter.git;
-cd starter;
-git checkout lamp;
-git submodule init;
-git submodule update;
-cd vagrant;
-vagrant up;
-```
-
-Resolve configured domains by adding them to your hosts file
-```
-192.168.33.10 www.takeawayit.local
-192.168.33.10 starter.takeawayit.local
-192.168.33.10 takeawayit.local
-```
