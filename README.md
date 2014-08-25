@@ -11,6 +11,8 @@ To copy and boot-up a lamp environment
 git clone --recurse-submodules https://github.com/TakeawayIT/starter.git;
 cd starter;
 git checkout lamp;
+git submodule init;
+git submodule update;
 cd vagrant;
 vagrant up;
 ```
