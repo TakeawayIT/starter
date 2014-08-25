@@ -11,14 +11,14 @@ TODO: List your cookbook requirements. Be sure to include any requirements this 
 
 e.g.
 #### packages
-- `toaster` - bottica needs toaster to brown your bagel.
+- `toaster` - Takeaway IT needs toaster to brown your bagel.
 
 Attributes
 ----------
 TODO: List your cookbook attributes here.
 
 e.g.
-#### bottica::default
+#### Takeaway IT::default
 <table>
   <tr>
     <th>Key</th>
@@ -27,7 +27,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['bottica']['bacon']</tt></td>
+    <td><tt>['Takeaway IT']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -36,17 +36,17 @@ e.g.
 
 Usage
 -----
-#### bottica::default
+#### Takeaway IT::default
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `bottica` in your node's `run_list`:
+Just include `Takeaway IT` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[bottica]"
+    "recipe[Takeaway IT]"
   ]
 }
 ```
