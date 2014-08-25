@@ -25,3 +25,6 @@
 [submodule "vagrant/cookbooks/xml"]
 	path = vagrant/cookbooks/xml
 	url = git@github.com:opscode-cookbooks/xml.git
+[submodule "www/cakephp25/Plugin/DebugKit"]
+	path = www/cakephp25/Plugin/DebugKit
+	url = https://github.com/cakephp/debug_kit.git

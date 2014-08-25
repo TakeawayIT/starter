@@ -1,0 +1,9 @@
+2014-08-25 13:18:21 Error: [MissingControllerException] Controller class Server-infoController could not be found.
+Exception Attributes: array (
+  'class' => 'Server-infoController',
+  'plugin' => NULL,
+)
+Request URL: /server-info
+Stack Trace:
+#0 /var/www/cakephp25/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
