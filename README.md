@@ -1,4 +1,4 @@
-LAMP (with CakePHP)
+LAMP (with [CakePHP](http://cakephp.org/))
 =====
 This branch will provide you with a basic LAMP environemtn 
 
