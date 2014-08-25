@@ -1,4 +1,4 @@
-LAMP
+LAMP (with Kohana)
 =====
 This branch will provide you with a basic LAMP environemtn 
 
