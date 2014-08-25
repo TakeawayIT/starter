@@ -18,15 +18,15 @@ To copy and boot-up the LAMP environment you need to:
 2. Checkout the "lamp" branch and update submodules 
 3. Boot-up the virtualBox using Vagrant
 
-```
-# 1.
+```bash
+   # 1.
 git clone --recurse-submodules https://github.com/TakeawayIT/starter.git;
-# 2.
+   # 2.
 cd starter;
 git checkout lamp-cakephp25;
 git submodule init;
 git submodule update;
-# 3.
+   # 3.
 cd vagrant;
 vagrant up;
 ```
