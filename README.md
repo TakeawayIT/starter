@@ -18,7 +18,7 @@ To copy and boot-up the LAMP environment you need to:
 2. Checkout the "lamp" branch and update submodules 
 3. Boot-up the virtualBox using Vagrant
 
-```Shell
+```bash
    # 1.
 git clone --recurse-submodules https://github.com/TakeawayIT/starter.git;
    # 2.
