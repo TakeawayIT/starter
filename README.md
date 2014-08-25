@@ -30,7 +30,8 @@ cd vagrant;
 vagrant up;
 ```
 
-4. Last but not least you need to resolve configured domain & subdomains by adding them to your hosts file.
+##Resolve domains/sub-domains 
+Last but not least you need to resolve configured domain & subdomains by adding them to your hosts file.
 ```
 192.168.33.10 www.takeawayit.local
 192.168.33.10 starter.takeawayit.local
