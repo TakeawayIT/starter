@@ -25,3 +25,6 @@
 [submodule "vagrant/cookbooks/xml"]
 	path = vagrant/cookbooks/xml
 	url = git@github.com:opscode-cookbooks/xml.git
+[submodule "vagrant/cookbooks/phalconphp"]
+	path = vagrant/cookbooks/phalconphp
+	url = git@github.com:TakeawayIT/phalconphp.git
