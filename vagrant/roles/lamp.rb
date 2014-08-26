@@ -27,5 +27,8 @@ run_list(
     "recipe[yum-webtatic]",
     "recipe[takeaway-it::php]",
     "recipe[apache2::mod_php5]",    
-    "recipe[takeaway-it::vhost]"
+    "recipe[phalconphp]",
+    "recipe[phalconphp::dev_tools]",
+    "recipe[takeaway-it::vhost]",
+    "recipe[takeaway-it::vhost_phalconphp13]"
 )
