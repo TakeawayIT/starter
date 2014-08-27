@@ -30,4 +30,5 @@ run_list(
     "recipe[apache2::mod_php5]",    
     "recipe[takeaway-it::vhost]",
     "recipe[takeaway-it::vhost_cakephp25]"
+    "recipe[takeaway-it::vhost_kohana332]"
 )
