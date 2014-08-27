@@ -26,11 +26,11 @@ bash 'setup_takeawayit_db' do
   mysql -u root -ppass -e "CREATE SCHEMA IF NOT EXISTS takeawayit_phalconphp DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci";
   mysql -u root -ppass -e "GRANT ALL ON takeawayit_phalconphp.* TO 'takeawayit'@'localhost' IDENTIFIED BY 'takeawayitpass'";
 
-  mysql -u root -ppass -e "CREATE SCHEMA IF NOT EXISTS takeawayit_symfony DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci";
-  mysql -u root -ppass -e "GRANT ALL ON takeawayit_symfony.* TO 'takeawayit'@'localhost' IDENTIFIED BY 'takeawayitpass'";
+  mysql -u root -ppass -e "CREATE SCHEMA IF NOT EXISTS takeawayit_symfony2 DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci";
+  mysql -u root -ppass -e "GRANT ALL ON takeawayit_symfony2.* TO 'takeawayit'@'localhost' IDENTIFIED BY 'takeawayitpass'";
 
-  mysql -u root -ppass -e "CREATE SCHEMA IF NOT EXISTS takeawayit_zend DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci";
-  mysql -u root -ppass -e "GRANT ALL ON takeawayit_zend.* TO 'takeawayit'@'localhost' IDENTIFIED BY 'takeawayitpass'";
+  mysql -u root -ppass -e "CREATE SCHEMA IF NOT EXISTS takeawayit_zend2 DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci";
+  mysql -u root -ppass -e "GRANT ALL ON takeawayit_zend2.* TO 'takeawayit'@'localhost' IDENTIFIED BY 'takeawayitpass'";
 
   EOL
 end

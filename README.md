@@ -9,6 +9,7 @@ Apache               | 2.2.15
 MySql                | 5.1.73
 PHP                  | 5.5.15
 CakePHP              | 2.5
+kohana               | 3.3.2
 Laravel              | 4.2
 Symfony2             | 2
 Zend                 | 2.3
