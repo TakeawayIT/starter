@@ -10,6 +10,7 @@ MySql                | 5.1.73
 PHP                  | 5.5.15
 CakePHP              | 2.5
 Laravel              | 4.2
+Symfony2             | 2
 
 ##Installation 
 
