@@ -27,13 +27,11 @@ run_list(
     "recipe[yum-webtatic]",
     "recipe[takeaway-it::php]",
     "recipe[takeaway-it::cakephp]",
+    "recipe[takeaway-it::laravel]",
     "recipe[apache2::mod_php5]",    
     "recipe[takeaway-it::vhost]",
     "recipe[takeaway-it::vhost_cakephp25]"
     "recipe[takeaway-it::vhost_kohana332]"
-    "recipe[takeaway-it::laravel]",
-    "recipe[apache2::mod_php5]",    
-    "recipe[takeaway-it::vhost]",
     "recipe[takeaway-it::vhost_laravel42]"
     "recipe[takeaway-it::vhost_symfony2]",
     "recipe[takeaway-it::vhost_zend2]"
