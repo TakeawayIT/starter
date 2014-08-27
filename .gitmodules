@@ -28,3 +28,6 @@
 [submodule "www/cakephp25/Plugin/DebugKit"]
 	path = www/cakephp25/Plugin/DebugKit
 	url = https://github.com/cakephp/debug_kit.git
+[submodule "www/zend2"]
+	path = www/zend2
+	url = git@github.com:TakeawayIT/ZendSkeletonApplication.git
