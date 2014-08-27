@@ -13,6 +13,7 @@ kohana               | 3.3.2
 Laravel              | 4.2
 Symfony2             | 2
 Zend                 | 2.3
+PhalconPHP			 | 1.3
 
 ##Installation 
 

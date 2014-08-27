@@ -31,3 +31,6 @@
 [submodule "www/zend2"]
 	path = www/zend2
 	url = git@github.com:TakeawayIT/ZendSkeletonApplication.git
+[submodule "vagrant/cookbooks/phalconphp"]
+	path = vagrant/cookbooks/phalconphp
+	url = git@github.com:takeawayITChef/phalconphp.git
