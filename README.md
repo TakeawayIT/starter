@@ -9,6 +9,7 @@ Apache               | 2.2.15
 MySql                | 5.1.73
 PHP                  | 5.5.15
 CakePHP              | 2.5
+Laravel              | 4.2
 
 ##Installation 
 

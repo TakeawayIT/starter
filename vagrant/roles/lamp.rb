@@ -31,4 +31,8 @@ run_list(
     "recipe[takeaway-it::vhost]",
     "recipe[takeaway-it::vhost_cakephp25]"
     "recipe[takeaway-it::vhost_kohana332]"
+    "recipe[takeaway-it::laravel]",
+    "recipe[apache2::mod_php5]",    
+    "recipe[takeaway-it::vhost]",
+    "recipe[takeaway-it::vhost_laravel42]"
 )
