@@ -1,6 +1,6 @@
 LAMP (with [CakePHP](http://cakephp.org/))
 =====
-This branch will provide you with a basic LAMP environemtn 
+This branch will provide you with a basic LAMP environment 
 
 Component            | Version
 -------------------- | --------------------
@@ -38,3 +38,12 @@ Last but not least you need to resolve configured domain & subdomains by adding 
 192.168.33.10 cakephp.takeawayit.local
 192.168.33.10 takeawayit.local
 ```
+
+##Database
+This dev-box comes with two database named "takeawayit" & "takeawayit_cakephp"
+the user name for both databases is the same as the main db name and the password is the same with a "pass" appended 
+
+DATABASE NAME      | User ID    | Password 
+-------------------|------------|---------------
+takeawayit         | takeawayit | takeawayitpass
+takeawayit_cakephp | takeawayit | takeawayitpass
