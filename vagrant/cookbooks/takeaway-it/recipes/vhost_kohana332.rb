@@ -6,7 +6,7 @@ web_app "vhost_kohana332" do
   allow_override "all"  
   docroot "/var/www/kohana332"
   directory_index ["index.html","index.htm","index.php"]
-  set_env "KOHANA_ENV DEV"
+  set_env "KOHANA_ENV DEVELOPMENT"
 end
 
 bash "symlink_vhost_kohana332" do    
