@@ -22,18 +22,37 @@ To copy and boot-up the LAMP environment you need to:
 1. Clone/copy the "starter" repository
 2. Checkout the "lamp" branch and update submodules 
 3. Boot-up the virtualBox using Vagrant
+4. Prepare required folder structures
+5. Update vendors on frameworks if required
 
 ```bash
    # 1.
 git clone --recurse-submodules https://github.com/TakeawayIT/starter.git;
+
    # 2.
 cd starter;
 git checkout lamp-frameworks;
 git submodule init;
 git submodule update;
+
    # 3.
 cd vagrant;
 vagrant up;
+
+vagrant ssh;
+
+   # 4.
+mkdir /var/www/kohana332/application/cache /var/www/kohana332/application/logs
+
+   # .5
+cd /var/www/zend2;
+composer update;
+
+cd /var/www/symfony2;
+composer update;
+
+cd /var/www/kohana332;
+composer update;
 ```
 
 ##Resolve domains/sub-domains 
