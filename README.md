@@ -38,3 +38,10 @@ Last but not least you need to resolve configured domain & subdomains by adding 
 192.168.33.10 laravel.takeawayit.local
 192.168.33.10 takeawayit.local
 ```
+##Database
+This dev-box comes with a database named "takeawayit"
+the user name for the data base is the same as the db name and the password is the same with a "pass" appended
+
+DATABASE NAME | User ID    | Password
+--------------|------------|---------------
+takeawayit    | takeawayit | takeawayitpass
