@@ -1,27 +1,27 @@
 [submodule "vagrant/cookbooks/apache2"]
 	path = vagrant/cookbooks/apache2
-	url = git@github.com:onehealth-cookbooks/apache2.git
+	url = https://github.com/onehealth-cookbooks/apache2.git
 [submodule "vagrant/cookbooks/iptables"]
 	path = vagrant/cookbooks/iptables
-	url = git@github.com:opscode-cookbooks/iptables.git
+	url = https://github.com/opscode-cookbooks/iptables.git
 [submodule "vagrant/cookbooks/logrotate"]
 	path = vagrant/cookbooks/logrotate
-	url = git@github.com:stevendanna/logrotate.git
+	url = https://github.com/stevendanna/logrotate.git
 [submodule "vagrant/cookbooks/mysql"]
 	path = vagrant/cookbooks/mysql
-	url = git@github.com:opscode-cookbooks/mysql.git
+	url = https://github.com/opscode-cookbooks/mysql.git
 [submodule "vagrant/cookbooks/yum"]
 	path = vagrant/cookbooks/yum
-	url = git@github.com:opscode-cookbooks/yum.git
+	url = https://github.com/opscode-cookbooks/yum.git
 [submodule "vagrant/cookbooks/yum-webtatic"]
 	path = vagrant/cookbooks/yum-webtatic
-	url = git@github.com:webtatic-cookbooks/yum-webtatic.git
+	url = https://github.com/webtatic-cookbooks/yum-webtatic.git
 [submodule "vagrant/cookbooks/phpcs"]
 	path = vagrant/cookbooks/phpcs
-	url = git@github.com:escapestudios-cookbooks/phpcs.git
+	url = https://github.com/escapestudios-cookbooks/phpcs.git
 [submodule "vagrant/cookbooks/build-essential"]
 	path = vagrant/cookbooks/build-essential
-	url = git@github.com:opscode-cookbooks/build-essential.git
+	url = https://github.com/opscode-cookbooks/build-essential.git
 [submodule "vagrant/cookbooks/xml"]
 	path = vagrant/cookbooks/xml
-	url = git@github.com:opscode-cookbooks/xml.git
+	url = https://github.com/opscode-cookbooks/xml.git
